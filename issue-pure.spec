@@ -1,3 +1,8 @@
+# Check//modify distversion please
+%define	distname	Ra
+%define	distversion	2.0
+%define	distrelease	"%{distversion} PLD Linux (%{distname})"
+
 Summary:	PLD Linux release file
 Summary(cs):	Soubor s èíslem verze systému PLD Linux
 Summary(da):	PLD Linux release fil
@@ -19,7 +24,7 @@ Summary(sv):	PLD Linux versionsfil
 Summary(tr):	PLD Linux sürüm dosyasý
 Summary(zh_CN):	PLD Linux °æ±¾ÎÄ¼þ¡£
 Name:		issue-pure
-Version:	2.0
+Version:	%{distversion}
 Release:	7
 License:	GPL
 Group:		Base
@@ -99,7 +104,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue <<EOF
-PLD Linux 1.1 (Ra) \m, \r
+PLD Linux %{distversion} (%{distname}) \m, \r
 Welcome to \n
 \u user(s)
 
@@ -107,11 +112,11 @@ EOF
 echo -ne "\l " >> $RPM_BUILD_ROOT%{_sysconfdir}/issue
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
-PLD Linux 1.1 (Ra) %m, %r
+PLD Linux %{distversion} (%{distname}) %m, %r
 Welcome to %h
 
 EOF
-echo "1.1 PLD Linux (Ra)" > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
+echo %{distrelease} > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
 
 %clean
 rm -rf $RPM_BUILD_ROOT

@@ -7,13 +7,15 @@ Release:	6
 License:	GPL
 Group:		Base
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 Obsoletes:	issue
 Obsoletes:	issue-alpha
 Obsoletes:	issue-fancy
 Obsoletes:	issue-logo
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	redhat-release
+Obsoletes:	mandrake-release
 
 %description
 PLD Linux release file.

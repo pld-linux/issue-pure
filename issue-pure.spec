@@ -3,15 +3,16 @@ Summary(de):	PLD Linux Release-Datei
 Summary(pl):	Wersja Linuksa PLD
 Name:		issue-pure
 Version:	2.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Base
 BuildArch:	noarch
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 Obsoletes:	issue
-Obsoletes:	issue-logo
+Obsoletes:	issue-alpha
 Obsoletes:	issue-fancy
+Obsoletes:	issue-logo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,8 +23,6 @@ PLD Linux Release-Datei.
 
 %description -l pl
 Wersja Linuksa PLD.
-
-%prep
 
 %install
 rm -rf $RPM_BUILD_ROOT

@@ -99,7 +99,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue <<EOF
-PLD Linux 1.99 (Ac) \m, \r
+PLD Linux 1.1 (Ra) \m, \r
 Welcome to \n
 \u user(s)
 
@@ -107,11 +107,11 @@ EOF
 echo -ne "\l " >> $RPM_BUILD_ROOT%{_sysconfdir}/issue
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
-PLD Linux 1.99 (Ac) %m, %r
+PLD Linux 1.1 (Ra) %m, %r
 Welcome to %h
 
 EOF
-echo "1.99 PLD Linux (Ac)" > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
+echo "1.1 PLD Linux (Ra)" > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
 
 %clean
 rm -rf $RPM_BUILD_ROOT

@@ -25,7 +25,7 @@ Summary(tr):	PLD Linux sürüm dosyasý
 Summary(zh_CN):	PLD Linux °æ±¾ÎÄ¼þ¡£
 Name:		issue-pure
 Version:	%{distversion}
-Release:	7
+Release:	8
 License:	GPL
 Group:		Base
 BuildArch:	noarch

@@ -3,7 +3,7 @@ Summary(de):	PLD Linux Release-Datei
 Summary(pl):	Wersja Linuksa PLD
 Name:		issue-pure
 Version:	2.0
-Release:	5
+Release:	6
 License:	GPL
 Group:		Base
 BuildArch:	noarch
@@ -29,7 +29,6 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue <<EOF
-c
 PLD Linux 1.0 (Ra) \m, \r
 Welcome to \n
 \u user(s)

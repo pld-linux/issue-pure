@@ -41,7 +41,7 @@ echo -ne "\l " >> $RPM_BUILD_ROOT%{_sysconfdir}/issue
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
 PLD Linux 1.0 (Ra) %m, %r
 Welcome to %h
- 
+
 EOF
 echo "1.0 PLD Linux (Ra)" > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
 

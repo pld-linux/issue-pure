@@ -36,6 +36,7 @@ Obsoletes:	issue
 Obsoletes:	issue-alpha
 Obsoletes:	issue-fancy
 Obsoletes:	issue-logo
+Obsoletes:	issue-nice
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
 

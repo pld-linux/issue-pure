@@ -18,8 +18,8 @@ PLD Linux release file.
 %description -l de
 PLD Linux Release-Datei.
 
-%description
-Wersja Linuxa PLD.
+%description -l pl
+Wersja Linuksa PLD.
 
 
 %install

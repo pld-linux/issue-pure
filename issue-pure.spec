@@ -1,6 +1,23 @@
 Summary:	PLD Linux release file
+Summary(cs):	Soubor s èíslem verze systému PLD Linux
+Summary(da):	PLD Linux release fil
 Summary(de):	PLD Linux Release-Datei
+Summary(es):	El fichero con la versión de PLD Linux
+Summary(fr):	Fichier de version de PLD Linux
+Summary(id):	File rilis PLD Linux
+Summary(is):	Útgáfuskráin fyrir PLD Linux
+Summary(it):	File della release di PLD Linux
+Summary(ja):	PLD Linux ¥ê¥ê¡¼¥¹¥Õ¥¡¥¤¥ë
+Summary(ko):	PLD Linux ¹èÆ÷ ÆÄÀÏ
+Summary(no):	PLD Linux release fil
 Summary(pl):	Wersja Linuksa PLD
+Summary(pt):	O ficheiro de versão final do PLD Linux
+Summary(ru):	æÁÊÌ ÒÅÌÉÚÁ PLD Linux
+Summary(sk):	Súbor oznaèujúci verziu PLD Linux
+Summary(sl):	Datoteka s podatki o izdaji PLD Linuxa
+Summary(sv):	PLD Linux versionsfil
+Summary(tr):	PLD Linux sürüm dosyasý
+Summary(zh_CN):	PLD Linux °æ±¾ÎÄ¼þ¡£
 Name:		issue-pure
 Version:	2.0
 Release:	7
@@ -20,11 +37,62 @@ Obsoletes:	mandrake-release
 %description
 PLD Linux release file.
 
+%description -l cs
+Soubor s èíslem verze systému PLD Linux.
+
+%description -l da
+PLD Linux release fil.
+
 %description -l de
 PLD Linux Release-Datei.
 
+%description -l es
+El fichero con la versión de PLD Linux.
+
+%description -l fr
+Fichier de version de PLD Linux.
+
+%description -l id
+File rilis PLD Linux.
+
+%description -l is
+Útgáfuskráin fyrir PLD Linux.
+
+%description -l it
+File della release di PLD Linux.
+
+%description -l ja
+PLD Linux ¥ê¥ê¡¼¥¹¥Õ¥¡¥¤¥ë
+
+%description -l ko
+PLD Linux ¹èÆ÷ ÆÄÀÏ.
+
+%description -l no
+PLD Linux release fil.
+
 %description -l pl
 Wersja Linuksa PLD.
+
+%description -l pt
+O ficheiro de versão final do PLD Linux.
+
+%description -l ru
+æÁÊÌ ÒÅÌÉÚÁ PLD Linux.
+
+%description -l sk
+Súbor oznaèujúci verziu PLD Linux.
+
+%description -l sl
+Datoteka s podatki o izdaji PLD Linuxa.
+
+%description -l sv
+PLD Linux versionsfil.
+
+%description -l tr
+PLD Linux sürüm dosyasý.
+
+%description -l zh_CN
+PLD Linux °æ±¾ÎÄ¼þ¡£
 
 %install
 rm -rf $RPM_BUILD_ROOT

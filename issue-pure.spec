@@ -14,7 +14,7 @@ Summary(is):	Útgáfuskráin fyrir PLD Linux
 Summary(it):	File della release di PLD Linux
 Summary(ja):	PLD Linux ¥ê¥ê¡¼¥¹¥Õ¥¡¥¤¥ë
 Summary(ko):	PLD Linux ¹èÆ÷ ÆÄÀÏ
-Summary(no):	PLD Linux release fil
+Summary(nb):	PLD Linux release fil
 Summary(pl):	Wersja Linuksa PLD
 Summary(pt):	O ficheiro de versão final do PLD Linux
 Summary(ru):	æÁÊÌ ÒÅÌÉÚÁ PLD Linux
@@ -72,7 +72,7 @@ PLD Linux ¥ê¥ê¡¼¥¹¥Õ¥¡¥¤¥ë
 %description -l ko
 PLD Linux ¹èÆ÷ ÆÄÀÏ.
 
-%description -l no
+%description -l nb
 PLD Linux release fil.
 
 %description -l pl

@@ -1,16 +1,21 @@
-Summary:	    PLD Linux release file
+Summary:	PLD Linux release file
 Summary(de):	PLD Linux Release-Datei
-Summary(pl):	Wersja Linuxa PLD
-Name:		      issue-pure
-Version:	    2.0
-Release:	    1
-Copyright:	  free
-Group:		    Base
-Group(pl):	  Podstawowe
-Buildarch:	  noarch
-Obsoletes:	  redhat-release
-Obsoletes:	  mandrake-release
-BuildRoot:	  %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Summary(pl):	Wersja Linuksa PLD
+Name:		issue-pure
+Version:	2.0
+Release:	2
+License:	free
+Group:		Base
+Group(de):	Gründsätzlich
+Group(es):	Base
+Group(pl):	Podstawowe
+Group(pt_BR):	Base
+BuildArch:	noarch
+Obsoletes:	redhat-release
+Obsoletes:	mandrake-release
+Obsoletes:	issue
+Obsoletes:	issue-logo
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PLD Linux release file.
@@ -21,14 +26,13 @@ PLD Linux Release-Datei.
 %description -l pl
 Wersja Linuksa PLD.
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue <<EOF
 c
-PLD GNU/Linux 1.0 (Ra) \m, \r
+PLD Linux 1.0 (Ra) \m, \r
 Welcome to \n
 \u user(s)
 
@@ -36,7 +40,7 @@ EOF
 echo -ne "\l " >> $RPM_BUILD_ROOT%{_sysconfdir}/issue
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
-PLD GNU/Linux 1.0 (Ra) %m, %r
+PLD Linux 1.0 (Ra) %m, %r
 Welcome to %h
  
 EOF

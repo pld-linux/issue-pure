@@ -1,6 +1,6 @@
 # Check//modify distversion please
 %define	distname	Ra
-%define	distversion	2.0
+%define	distversion	1.1
 %define	distrelease	"%{distversion} PLD Linux (%{distname})"
 
 Summary:	PLD Linux release file

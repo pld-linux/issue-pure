@@ -3,7 +3,7 @@ Summary(de):	PLD Linux Release-Datei
 Summary(pl):	Wersja Linuksa PLD
 Name:		issue-pure
 Version:	2.0
-Release:	2
+Release:	3
 License:	free
 Group:		Base
 Group(de):	Gründsätzlich

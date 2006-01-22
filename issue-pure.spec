@@ -1,6 +1,6 @@
 
 %define	distname	Ac
-%define	distversion	1.99
+%define	distversion	2.0
 %define	distrelease	"%{distversion} PLD Linux (%{distname})"
 
 Summary:	PLD Linux release file
@@ -25,7 +25,7 @@ Summary(tr):	PLD Linux sürüm dosyasý
 Summary(zh_CN):	PLD Linux °æ±¾ÎÄ¼þ¡£
 Name:		issue-pure
 Version:	%{distversion}
-Release:	8
+Release:	1
 License:	GPL
 Group:		Base
 BuildArch:	noarch

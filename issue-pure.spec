@@ -25,7 +25,7 @@ Summary(tr):	PLD Linux sürüm dosyasý
 Summary(zh_CN):	PLD Linux °æ±¾ÎÄ¼þ¡£
 Name:		issue-pure
 Version:	%{distversion}
-Release:	1
+Release:	2
 License:	GPL
 Group:		Base
 BuildArch:	noarch
@@ -39,6 +39,7 @@ Obsoletes:	issue-logo
 Obsoletes:	issue-nice
 Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
+Provides:	issue
 
 %description
 PLD Linux release file.

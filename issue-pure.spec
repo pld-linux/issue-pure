@@ -28,18 +28,16 @@ Version:	%{distversion}
 Release:	2
 License:	GPL
 Group:		Base
-BuildArch:	noarch
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	redhat-release
-Obsoletes:	mandrake-release
+Provides:	issue
 Obsoletes:	issue
 Obsoletes:	issue-alpha
 Obsoletes:	issue-fancy
 Obsoletes:	issue-logo
 Obsoletes:	issue-nice
-Obsoletes:	redhat-release
 Obsoletes:	mandrake-release
-Provides:	issue
+Obsoletes:	redhat-release
+BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PLD Linux release file.

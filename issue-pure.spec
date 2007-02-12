@@ -4,25 +4,25 @@
 %define	distrelease	"%{distversion} PLD Linux (%{distname})"
 
 Summary:	PLD Linux release file
-Summary(cs):	Soubor s èíslem verze systému PLD Linux
-Summary(da):	PLD Linux release fil
-Summary(de):	PLD Linux Release-Datei
-Summary(es):	El fichero con la versión de PLD Linux
-Summary(fr):	Fichier de version de PLD Linux
-Summary(id):	File rilis PLD Linux
-Summary(is):	Útgáfuskráin fyrir PLD Linux
-Summary(it):	File della release di PLD Linux
-Summary(ja):	PLD Linux ¥ê¥ê¡¼¥¹¥Õ¥¡¥¤¥ë
-Summary(ko):	PLD Linux ¹èÆ÷ ÆÄÀÏ
-Summary(nb):	PLD Linux release fil
-Summary(pl):	Wersja Linuksa PLD
-Summary(pt):	O ficheiro de versão final do PLD Linux
-Summary(ru):	æÁÊÌ ÒÅÌÉÚÁ PLD Linux
-Summary(sk):	Súbor oznaèujúci verziu PLD Linux
-Summary(sl):	Datoteka s podatki o izdaji PLD Linuxa
-Summary(sv):	PLD Linux versionsfil
-Summary(tr):	PLD Linux sürüm dosyası
-Summary(zh_CN):	PLD Linux °æ±¾ÎÄ¼ş¡£
+Summary(cs.UTF-8):   Soubor s ÄÃ­slem verze systÃ©mu PLD Linux
+Summary(da.UTF-8):   PLD Linux release fil
+Summary(de.UTF-8):   PLD Linux Release-Datei
+Summary(es.UTF-8):   El fichero con la versiÃ³n de PLD Linux
+Summary(fr.UTF-8):   Fichier de version de PLD Linux
+Summary(id.UTF-8):   File rilis PLD Linux
+Summary(is.UTF-8):   ÃštgÃ¡fuskrÃ¡in fyrir PLD Linux
+Summary(it.UTF-8):   File della release di PLD Linux
+Summary(ja.UTF-8):   PLD Linux ãƒªãƒªãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«
+Summary(ko.UTF-8):   PLD Linux ë°°í¬ íŒŒì¼
+Summary(nb.UTF-8):   PLD Linux release fil
+Summary(pl.UTF-8):   Wersja Linuksa PLD
+Summary(pt.UTF-8):   O ficheiro de versÃ£o final do PLD Linux
+Summary(ru.UTF-8):   Ğ¤Ğ°Ğ¹Ğ» Ñ€ĞµĞ»Ğ¸Ğ·Ğ° PLD Linux
+Summary(sk.UTF-8):   SÃºbor oznaÄujÃºci verziu PLD Linux
+Summary(sl.UTF-8):   Datoteka s podatki o izdaji PLD Linuxa
+Summary(sv.UTF-8):   PLD Linux versionsfil
+Summary(tr.UTF-8):   PLD Linux sÃ¼rÃ¼m dosyasÄ±
+Summary(zh_CN.UTF-8):   PLD Linux ç‰ˆæœ¬æ–‡ä»¶ã€‚
 Name:		issue-pure
 Version:	%{distversion}
 Release:	2
@@ -42,62 +42,62 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 PLD Linux release file.
 
-%description -l cs
-Soubor s èíslem verze systému PLD Linux.
+%description -l cs.UTF-8
+Soubor s ÄÃ­slem verze systÃ©mu PLD Linux.
 
-%description -l da
+%description -l da.UTF-8
 PLD Linux release fil.
 
-%description -l de
+%description -l de.UTF-8
 PLD Linux Release-Datei.
 
-%description -l es
-El fichero con la versión de PLD Linux.
+%description -l es.UTF-8
+El fichero con la versiÃ³n de PLD Linux.
 
-%description -l fr
+%description -l fr.UTF-8
 Fichier de version de PLD Linux.
 
-%description -l id
+%description -l id.UTF-8
 File rilis PLD Linux.
 
-%description -l is
-Útgáfuskráin fyrir PLD Linux.
+%description -l is.UTF-8
+ÃštgÃ¡fuskrÃ¡in fyrir PLD Linux.
 
-%description -l it
+%description -l it.UTF-8
 File della release di PLD Linux.
 
-%description -l ja
-PLD Linux ¥ê¥ê¡¼¥¹¥Õ¥¡¥¤¥ë
+%description -l ja.UTF-8
+PLD Linux ãƒªãƒªãƒ¼ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«
 
-%description -l ko
-PLD Linux ¹èÆ÷ ÆÄÀÏ.
+%description -l ko.UTF-8
+PLD Linux ë°°í¬ íŒŒì¼.
 
-%description -l nb
+%description -l nb.UTF-8
 PLD Linux release fil.
 
-%description -l pl
+%description -l pl.UTF-8
 Wersja Linuksa PLD.
 
-%description -l pt
-O ficheiro de versão final do PLD Linux.
+%description -l pt.UTF-8
+O ficheiro de versÃ£o final do PLD Linux.
 
-%description -l ru
-æÁÊÌ ÒÅÌÉÚÁ PLD Linux.
+%description -l ru.UTF-8
+Ğ¤Ğ°Ğ¹Ğ» Ñ€ĞµĞ»Ğ¸Ğ·Ğ° PLD Linux.
 
-%description -l sk
-Súbor oznaèujúci verziu PLD Linux.
+%description -l sk.UTF-8
+SÃºbor oznaÄujÃºci verziu PLD Linux.
 
-%description -l sl
+%description -l sl.UTF-8
 Datoteka s podatki o izdaji PLD Linuxa.
 
-%description -l sv
+%description -l sv.UTF-8
 PLD Linux versionsfil.
 
-%description -l tr
-PLD Linux sürüm dosyası.
+%description -l tr.UTF-8
+PLD Linux sÃ¼rÃ¼m dosyasÄ±.
 
-%description -l zh_CN
-PLD Linux °æ±¾ÎÄ¼ş¡£
+%description -l zh_CN.UTF-8
+PLD Linux ç‰ˆæœ¬æ–‡ä»¶ã€‚
 
 %prep
 

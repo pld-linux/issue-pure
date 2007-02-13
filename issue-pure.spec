@@ -4,25 +4,25 @@
 %define	distrelease	"%{distversion} PLD Linux (%{distname})"
 
 Summary:	PLD Linux release file
-Summary(cs.UTF-8):   Soubor s číslem verze systému PLD Linux
-Summary(da.UTF-8):   PLD Linux release fil
-Summary(de.UTF-8):   PLD Linux Release-Datei
-Summary(es.UTF-8):   El fichero con la versión de PLD Linux
-Summary(fr.UTF-8):   Fichier de version de PLD Linux
-Summary(id.UTF-8):   File rilis PLD Linux
-Summary(is.UTF-8):   Útgáfuskráin fyrir PLD Linux
-Summary(it.UTF-8):   File della release di PLD Linux
-Summary(ja.UTF-8):   PLD Linux リリースファイル
-Summary(ko.UTF-8):   PLD Linux 배포 파일
-Summary(nb.UTF-8):   PLD Linux release fil
-Summary(pl.UTF-8):   Wersja Linuksa PLD
-Summary(pt.UTF-8):   O ficheiro de versão final do PLD Linux
-Summary(ru.UTF-8):   Файл релиза PLD Linux
-Summary(sk.UTF-8):   Súbor označujúci verziu PLD Linux
-Summary(sl.UTF-8):   Datoteka s podatki o izdaji PLD Linuxa
-Summary(sv.UTF-8):   PLD Linux versionsfil
-Summary(tr.UTF-8):   PLD Linux sürüm dosyası
-Summary(zh_CN.UTF-8):   PLD Linux 版本文件。
+Summary(cs.UTF-8):	Soubor s číslem verze systému PLD Linux
+Summary(da.UTF-8):	PLD Linux release fil
+Summary(de.UTF-8):	PLD Linux Release-Datei
+Summary(es.UTF-8):	El fichero con la versión de PLD Linux
+Summary(fr.UTF-8):	Fichier de version de PLD Linux
+Summary(id.UTF-8):	File rilis PLD Linux
+Summary(is.UTF-8):	Útgáfuskráin fyrir PLD Linux
+Summary(it.UTF-8):	File della release di PLD Linux
+Summary(ja.UTF-8):	PLD Linux リリースファイル
+Summary(ko.UTF-8):	PLD Linux 배포 파일
+Summary(nb.UTF-8):	PLD Linux release fil
+Summary(pl.UTF-8):	Wersja Linuksa PLD
+Summary(pt.UTF-8):	O ficheiro de versão final do PLD Linux
+Summary(ru.UTF-8):	Файл релиза PLD Linux
+Summary(sk.UTF-8):	Súbor označujúci verziu PLD Linux
+Summary(sl.UTF-8):	Datoteka s podatki o izdaji PLD Linuxa
+Summary(sv.UTF-8):	PLD Linux versionsfil
+Summary(tr.UTF-8):	PLD Linux sürüm dosyası
+Summary(zh_CN.UTF-8):	PLD Linux 版本文件。
 Name:		issue-pure
 Version:	%{distversion}
 Release:	2

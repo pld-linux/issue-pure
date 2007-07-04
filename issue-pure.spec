@@ -1,6 +1,6 @@
 
-%define	distname	Th
-%define	distversion	2.99
+%define	distname	Ac
+%define	distversion	2.00
 %define	distrelease	"%{distversion} PLD Linux (%{distname})"
 
 Summary:	PLD Linux release file
@@ -25,7 +25,7 @@ Summary(tr.UTF-8):	PLD Linux sürüm dosyası
 Summary(zh_CN.UTF-8):	PLD Linux 版本文件。
 Name:		issue-pure
 Version:	%{distversion}
-Release:	2
+Release:	3
 License:	GPL
 Group:		Base
 Provides:	issue

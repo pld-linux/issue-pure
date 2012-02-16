@@ -25,14 +25,12 @@ Summary(tr.UTF-8):	PLD Linux sürüm dosyası
 Summary(zh_CN.UTF-8):	PLD Linux 版本文件。
 Name:		issue-pure
 Version:	%{distversion}
-Release:	6
+Release:	7
 License:	GPL
 Group:		Base
 Provides:	issue
 Provides:	issue-package
 Obsoletes:	issue-package
-Obsoletes:	mandrake-release
-Obsoletes:	redhat-release
 Conflicts:	issue-alpha < 2.99-2
 Conflicts:	issue-fancy < 2.99-2
 Conflicts:	issue-logo < 2.99-2
@@ -118,12 +116,26 @@ PLD Linux %{distversion} (%{distname}) %m, %r
 Welcome to %h
 
 EOF
+
 echo %{distrelease} > $RPM_BUILD_ROOT%{_sysconfdir}/pld-release
+
+# CPE_NAME = cpe:/ {part} : {vendor} : {product} : {version} : {update} : {edition} : {language}
+# http://cpe.mitre.org/specification/
+cat >$RPM_BUILD_ROOT%{_sysconfdir}/os-release <<EOF
+NAME="PLD Linux"
+VERSION="%{distversion} (%{distname})"
+ID="pld"
+VERSION_ID="%{distversion}"
+PRETTY_NAME="PLD Linux %{distversion} (%{distname})"
+ANSI_COLOR="0;32"
+CPE_NAME="cpe:/o:pld-linux:pld:%{distversion}"
+EOF
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%{_sysconfdir}/os-release
 %{_sysconfdir}/pld-release
 %config(noreplace) %{_sysconfdir}/issue*

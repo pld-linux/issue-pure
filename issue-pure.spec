@@ -146,7 +146,7 @@ PRETTY_NAME="PLD Linux %{distversion} (%{distname})"
 ANSI_COLOR="0;32"
 CPE_NAME="%{cpename}"
 HOME_URL="http://www.pld-linux.org/"
-BUG_REPORT_URL="https://bugs.launchpad.net/pld-linux/"
+BUG_REPORT_URL="http://bugs.pld-linux.org/"
 EOF
 
 %clean

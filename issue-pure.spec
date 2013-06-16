@@ -1,5 +1,4 @@
-%define	distnamever	%(. /etc/os-release 2>/dev/null ; echo $VERSION)
-%define	distversion	%([ -e /etc/os-release ] && . /etc/os-release 2>/dev/null ; echo ${VERSION_ID:-0})
+%define	distversion	%(. /etc/os-release 2>/dev/null ; echo $VERSION)
 
 Summary:	PLD Linux prelogin message and identification file
 Summary(de.UTF-8):	PLD Linux Systemidentifikationsdatei
@@ -11,7 +10,7 @@ Summary(pl.UTF-8):	Plik identyfikujący system PLD Linux, wyświetlany przed zal
 Summary(pt.UTF-8):	Mensagem anteriores ao login e arquivo de identificaçăo do PLD Linux
 Summary(ru.UTF-8):	Файл идентификации, содержащий сообщение, выдаваемым перед приглашением в систему PLD Linux
 Name:		issue-pure
-Version:	%{distversion}
+Version:	3.0
 Release:	2
 License:	GPL
 Group:		Base
@@ -61,7 +60,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue <<EOF
-PLD Linux %{distnamever} \m, \r
+PLD Linux %{distversion} \m, \r
 Welcome to \n
 \u user(s)
 
@@ -69,7 +68,7 @@ EOF
 echo -ne "\l " >> $RPM_BUILD_ROOT%{_sysconfdir}/issue
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/issue.net <<EOF
-PLD Linux %{distnamever} %m, %r
+PLD Linux %{distversion} %m, %r
 Welcome to %h
 
 EOF

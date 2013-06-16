@@ -1,5 +1,5 @@
 %define	distnamever	%(. /etc/os-release 2>/dev/null ; echo $VERSION)
-%define	distversion	%(. /etc/os-release 2>/dev/null ; echo ${VERSION_ID:-0})
+%define	distversion	%([ -e /etc/os-release ] && . /etc/os-release 2>/dev/null ; echo ${VERSION_ID:-0})
 
 Summary:	PLD Linux prelogin message and identification file
 Summary(de.UTF-8):	PLD Linux Systemidentifikationsdatei

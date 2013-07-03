@@ -11,12 +11,12 @@ Summary(pt.UTF-8):	Mensagem anteriores ao login e arquivo de identificaçăo do 
 Summary(ru.UTF-8):	Файл идентификации, содержащий сообщение, выдаваемым перед приглашением в систему PLD Linux
 Name:		issue-pure
 Version:	3.0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Base
 BuildRequires:	pld-release >= 3.0
 %requires_eq	pld-release
-Provides:	issue
+Provides:	issue = %{version}-%{release}
 Conflicts:	issue-alpha < 3.0-1
 Conflicts:	issue-fancy < 3.0-1
 Conflicts:	issue-logo < 3.0-1
